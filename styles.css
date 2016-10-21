@@ -9,6 +9,9 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
+h1{
+  font-size: 8em;
+}
 
 body .dg.main {
   width: 80vw !important;
@@ -31,5 +34,20 @@ button {
 
 #controls-container {
   display: none;
-  width: 90vw;
+  width: 100vw;
 }
+
+#controls-container li{
+  margin-bottom: 0;
+  font-size: 1.6em;
+}
+input[type="checkbox"] {
+  width: 20px !important;
+  height: 20px !important;
+
+}
+
+input[type="text"] {
+    margin: 0 !important;
+}
+
